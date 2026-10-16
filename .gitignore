@@ -1,0 +1,44 @@
+# Cryptographic keys and binary blobs (CRITICAL)
+**/keys.h
+*.der
+*.key
+*.pem
+*id_ed25519*
+*.bin
+
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# CMake & Pico SDK build directories
+build/
+cmake-build-*/
+*.elf
+*.uf2
+*.hex
+*.map
+*.dis
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temporaries
+*.log
+*.tmp
+*.temp
+
+# Node / Utility tooling (optional external scripts)
+node_modules/
+package-lock.json
+
+# Extras
+extras/

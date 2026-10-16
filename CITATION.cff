@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: SSH.RP
+message: >-
+  If you use this software for your project, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Ricardo
+    family-names: Marques
+    alias: Eltryus
+repository-code: 'https://github.com/RicardoJCMarques/SSH.RP'
+abstract: >-
+  An embedded SSHv2 server firmware for RP2040 boards with WIZnet W5500 Ethernet connectivity (W55RP20 and discrete W5500 modules), built with wolfSSH and wolfCrypt using Ed25519 public-key authentication and Curve25519 key exchange.
+keywords:
+  - SSH
+  - RP2040
+  - Raspberry-Pi-Pico
+  - W5500
+  - W55RP20
+  - wolfSSH
+  - wolfSSL
+  - Ethernet
+  - Ed25519
+  - Embedded
+license: GPL-3.0-or-later
+version: 1.0.0
+date-released: '2026-10-16'

@@ -1,0 +1,31 @@
+/*!
+ * @file        include/keys.h.example
+ * @description Template for include/keys.h: board host key and authorized client key.
+ * @author      Eltryus - Ricardo Marques
+ * @copyright   2026 Eltryus - Ricardo Marques
+ * @see         https://github.com/RicardoJCMarques/SSH.RP
+ *
+ * SPDX-FileCopyrightText: 2026 Eltryus - Ricardo Marques
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+#ifndef KEYS_H
+#define KEYS_H
+
+/* Board host key: replace the three lines below with the whole content of host_key
+   (created by `ssh-keygen -t ed25519 -f host_key` with an empty passphrase). */
+static const char SSH_HOST_KEY[] = R"KEY(
+-----BEGIN OPENSSH PRIVATE KEY-----
+paste the content of host_key here
+-----END OPENSSH PRIVATE KEY-----
+)KEY";
+
+/* Your login key: replace the line below with the content of id_ed25519.pub. */
+static const char SSH_AUTHORIZED_KEY[] = R"KEY(
+ssh-ed25519 paste-the-content-of-id_ed25519.pub-here
+)KEY";
+
+/* Optional: uncomment to also allow password login for user "admin". */
+// #define SSH_PASSWORD "change-me"
+
+#endif
